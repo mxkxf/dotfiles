@@ -1,5 +1,6 @@
 tap 'caskroom/cask'
 tap 'homebrew/cask-fonts'
+tap 'heroku/brew'
 
 # Binaries
 
@@ -7,6 +8,7 @@ brew 'awscli'
 brew 'dnsmasq'
 brew 'fx'
 brew 'git'
+brew 'heroku'
 brew 'kubernetes-cli'
 brew 'node'
 brew 'prisma'
