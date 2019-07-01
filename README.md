@@ -2,7 +2,6 @@
 
 WIP
 
-
 ## Installation
 
 Install [Homebrew](https://brew.sh) and dependencies:
@@ -17,4 +16,5 @@ Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .
 ```
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
+ln -s $HOME/.dotfiles/.hushlogin $HOME/.hushlogin
 ```

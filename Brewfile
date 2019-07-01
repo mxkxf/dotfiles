@@ -1,6 +1,6 @@
 tap 'caskroom/cask'
-tap 'homebrew/cask-fonts'
 tap 'heroku/brew'
+tap 'homebrew/cask-fonts'
 
 # Binaries
 
@@ -15,7 +15,6 @@ brew 'node'
 brew 'python'
 brew 'ruby'
 brew 'sqlite'
-brew 'terraform'
 brew 'watchman'
 brew 'wget'
 brew 'yarn'
@@ -31,6 +30,7 @@ cask 'github'
 cask 'google-chrome'
 cask 'insomnia'
 cask 'iterm2'
+brew 'minikube'
 cask 'sequel-pro'
 cask 'sketch'
 cask 'skyfonts'
