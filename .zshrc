@@ -7,7 +7,7 @@ export ZSH=/Users/mikefrancis/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="agnoster"
+ZSH_THEME="kolo"
 
 DEFAULT_USER=$USER
 
@@ -76,3 +76,4 @@ source $ZSH/oh-my-zsh.sh
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
+export PATH="/usr/local/opt/terraform@0.11/bin:$PATH"
