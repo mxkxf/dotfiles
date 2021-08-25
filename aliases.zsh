@@ -3,15 +3,6 @@
 alias zshconfig="vi ~/.zshrc"
 alias ohmyzsh="vi ~/.oh-my-zsh"
 
-# Git
-
-alias gphm="git push heroku master"
-
-# k8s
-
-alias ku="kubectl -n default"
-alias kup="kubectl -n prod"
-
 # MySQL
 
 function new_mysql_container() {
@@ -24,3 +15,7 @@ function new_mysql_container() {
 alias dcu="docker-compose up --build"
 alias dcd="docker-compose down"
 
+# Python
+
+alias python=/usr/local/bin/python3
+alias pip=/usr/local/bin/pip3
