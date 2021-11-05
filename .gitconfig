@@ -1,0 +1,9 @@
+[user]
+  name = Mike Francis
+  email = mikeffrancis@gmail.com
+[core]
+  excludesfile = ~/.dotfiles/.gitignore_global
+[init]
+  defaultbranch = main
+[pull]
+  ff = only
