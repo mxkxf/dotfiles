@@ -9,6 +9,7 @@ ehthumbs.db
 Thumbs.db
 
 npm-debug.log
+tsconfig.tsbuildinfo
 
 .idea
 .vscode
