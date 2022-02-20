@@ -1,3 +1,6 @@
+
+alias nrd="npm run dev"
+
 # ZSH
 
 alias zshconfig="vi ~/.zshrc"
