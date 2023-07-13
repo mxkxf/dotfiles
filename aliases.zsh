@@ -1,5 +1,6 @@
 
 alias nrd="npm run dev"
+alias nrb="npm run build"
 
 # ZSH
 
