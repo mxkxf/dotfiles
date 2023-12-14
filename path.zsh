@@ -1,25 +1,24 @@
 # Mac OS
-
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/opt/homebrew/bin:$PATH"
 export PATH="/opt/homebrew/sbin:$PATH"
 
 # Android
-
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 # Composer
-
 export PATH=$PATH:$HOME/.composer/vendor/bin
 
 # Ruby
-
 export PATH="/usr/local/opt/ruby/bin:$PATH"
 
 # NVM
 export PATH="/opt/homebrew/lib/node_modules:$PATH"
+
+# Rust
+export PATH="$HOME/.cargo/bin:$PATH"
 
 export NVM_DIR="$HOME/.nvm"
   [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm

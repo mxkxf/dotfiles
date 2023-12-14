@@ -1,6 +1,8 @@
 
-alias nrd="npm run dev"
-alias nrb="npm run build"
+alias ni="bun install"
+alias nrd="bun dev"
+alias nrb="bun run build"
+alias nrs="bun storybook"
 
 # ZSH
 
@@ -20,9 +22,6 @@ alias dcu="docker-compose up --build"
 alias dcd="docker-compose down"
 
 # Python
-
-alias python=/opt/homebrew/bin/python3.11
-alias pip=/usr/local/bin/pip3.11
 
 # k8s 
 

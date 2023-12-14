@@ -10,6 +10,7 @@ Thumbs.db
 
 npm-debug.log
 tsconfig.tsbuildinfo
+bun.lockb
 
 .idea
 .vscode
@@ -17,3 +18,4 @@ tsconfig.tsbuildinfo
 composer.phar
 
 /local-package-dev
+
