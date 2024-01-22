@@ -1,8 +1,10 @@
+# Testing bun as a node replacement
 
 alias ni="bun install"
 alias nrd="bun dev"
 alias nrb="bun run build"
 alias nrs="bun storybook"
+alias nrt="bun test"
 
 # ZSH
 
