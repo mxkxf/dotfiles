@@ -6,6 +6,8 @@ alias nrb="bun run build"
 alias nrs="bun storybook"
 alias nrt="bun test"
 
+alias megaupdate="brew update && brew upgrade && brew upgrade --cask --greedy && brew autoremove && brew cleanup"
+
 # ZSH
 
 alias zshconfig="vi ~/.zshrc"
