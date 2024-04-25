@@ -14,7 +14,7 @@ export ZSH=/Users/mikefrancis/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="themes/powerlevel10k/powerlevel10k"
+ZSH_THEME=""
 
 DEFAULT_USER=$USER
 
@@ -86,9 +86,3 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/mikefrancis/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/mikefrancis/Downloads/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/mikefrancis/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/mikefrancis/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
