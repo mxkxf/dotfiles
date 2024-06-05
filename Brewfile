@@ -1,6 +1,5 @@
 tap "aws/tap"
 tap "homebrew/bundle"
-tap "homebrew/cask-fonts"
 tap "oven-sh/bun"
 brew "sqlite"
 brew "awscli"

@@ -3,11 +3,6 @@ export PATH="/usr/local/sbin:$PATH"
 export PATH="/opt/homebrew/bin:$PATH"
 export PATH="/opt/homebrew/sbin:$PATH"
 
-# Android
-export ANDROID_HOME=$HOME/Library/Android/sdk
-export PATH=$PATH:$ANDROID_HOME/tools
-export PATH=$PATH:$ANDROID_HOME/platform-tools
-
 # Composer
 export PATH=$PATH:$HOME/.composer/vendor/bin
 
@@ -45,7 +40,3 @@ load-nvmrc() {
 }
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
-
-# Java
-
-export PATH="/usr/local/opt/openjdk/bin:$PATH"
