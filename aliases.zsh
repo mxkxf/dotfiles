@@ -25,8 +25,6 @@ function new_mysql_container() {
 alias dcu="docker-compose up --build"
 alias dcd="docker-compose down"
 
-# Python
-
 # k8s 
 
 alias ku="kubectl"
