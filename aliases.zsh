@@ -13,7 +13,7 @@ alias nrs="bun storybook"
 alias nrt="bun test"
 
 alias megaupdate="
-  omz update && \
+  omz update --unattended && \
   brew update && \
   brew upgrade && \
   brew upgrade --cask --greedy && \
@@ -42,3 +42,5 @@ alias ku="kubectl"
 # lol
 
 alias tmrw="gdate -d '+1 day' '+%s'"
+alias pa="php artisan"
+alias pas="pa serve"

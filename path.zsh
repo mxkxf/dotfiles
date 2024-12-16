@@ -7,7 +7,10 @@ export PATH="/opt/homebrew/sbin:$PATH"
 export PATH=$PATH:$HOME/.composer/vendor/bin
 
 # Ruby
-export PATH="/usr/local/opt/ruby/bin:$PATH"
+if [ -d "/opt/homebrew/opt/ruby/bin" ]; then
+  export PATH=/opt/homebrew/opt/ruby/bin:$PATH
+  export PATH=`gem environment gemdir`/bin:$PATH
+fi
 
 # NVM
 export PATH="/opt/homebrew/lib/node_modules:$PATH"
