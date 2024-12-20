@@ -33,3 +33,11 @@ ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 ln -s $HOME/.dotfiles/.hushlogin $HOME/.hushlogin
 ln -s $HOME/.dotfiles/.gitconfig $HOME/.gitconfig
 ```
+
+Add and verify a new `{email}` then create a `.gitconfig` in `~/Code/{org}/` with:
+
+```
+[user]
+  email = {email}
+
+```
